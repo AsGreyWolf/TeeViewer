@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TeeViewer</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_update">Обновить</string>
+    <string name="action_edit">Изменить</string>
+    <string name="Loading">Загрузка</string>
+    <string name="title_activity_server">Server</string>
+    <string name="add_server">Добавить сервер</string>
+    <string name="edit_server">Изменить сервер</string>
+    <string name="name">Имя:</string>
+    <string name="ip">IP or домен:</string>
+    <string name="port">Порт:</string>
+    <string name="ename">Введите имя</string>
+    <string name="eip">Введите IP</string>
+    <string name="eport">Введите Порт</string>
+    <string name="add">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="edit">Изменить</string>
+    <string name="remove">Удалить</string>
+    <string name="menu">Меню</string>
+    <string name="widget_name_2">TeeViewer виджет 2x1</string>
+    <string name="widget_name_4">TeeViewer виджет 4x1</string>
+    
+    <string name="title_activity_widget">TeeViewer виджет</string>
+
+    <string name="cant_reach">Ошибка соединения</string>
+</resources>

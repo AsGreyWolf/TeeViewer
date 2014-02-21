@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="@dimen/widget_margin">
+<LinearLayout
+	android:id="@+id/rowlayout_layout"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/map_nonewidget"
+     >
+    
+    	<!-- 
+    android:background="@drawable/ctf1" 
+    
+ 	        style="@style/text_style"
+    -->
+
+    
+
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="33dp"
+	    >
+	    <ImageView
+    	    android:src="@android:drawable/presence_offline"
+ 	        android:id="@+id/rowlayout_online"
+ 	        android:layout_width="12dp"
+ 	        android:layout_height="fill_parent"
+ 	        android:gravity="center|left"
+ 	        android:contentDescription="@string/Loading"
+ 	         />
+ 	    <TextView
+ 	         style="@style/text_style_black"
+ 	        android:id="@+id/rowlayout_name"
+ 	        android:layout_width="200dp"
+ 	        android:layout_height="fill_parent"
+ 	        android:gravity="top|left"
+    		android:shadowRadius="4"
+ 	        
+ 	        android:textSize="20sp"
+ 	        
+ 	         >
+
+    	</TextView>
+
+		<TextView
+		     style="@style/text_style_black"
+		    android:id="@+id/rowlayout_players"
+		    android:layout_width="match_parent"
+		    android:layout_height="fill_parent"
+		    android:gravity="right|top"
+		    android:shadowRadius="3"
+		    
+		    android:textSize="16sp"
+		      >
+
+    	</TextView>
+</LinearLayout>
+<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    >
+	 	<TextView
+	 	     style="@style/text_style_black"
+	 	    android:id="@+id/rowlayout_ip"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="fill_parent"
+	 	    android:gravity="bottom|left"
+	 	    
+	 	    android:textSize="13sp"
+		    android:shadowRadius="3"
+	 	      ></TextView>
+	 	 	<TextView
+	 	 	     style="@style/text_style_black"
+	 	    android:id="@+id/rowlayout_map"
+	 	    android:layout_width="match_parent"
+	 	    android:layout_height="fill_parent"
+	 	    android:gravity="bottom|right"
+	 	    
+	 	    android:textSize="16sp"
+		    android:shadowRadius="3"
+	 	      >
+
+    	</TextView>
+    	</LinearLayout>
+    	
+</LinearLayout>
+</FrameLayout>

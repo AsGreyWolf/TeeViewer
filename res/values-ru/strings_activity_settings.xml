@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="title_activity_settings">Настройки</string>
+	<string name="pref_interface">Интерфейс</string>
+	<string name="pref_interface_mapimages">Скриншоты карт</string>
+	<string name="pref_interface_mapimages_desc">Скриншоты карт на фоне</string>
+	<string name="pref_interface_style">Стиль</string>
+    <string name="pref_interface_autoupdatetime">Период автообновления</string>
+	<string-array name="pref_interface_autoupdatetime_titles"> 
+		<item>5 сек</item>
+		<item>10 сек</item>
+		<item>30 сек</item>
+		<item>1 мин</item>
+		<item>5 мин</item>
+		<item>10 мин</item>
+		<item>15 мин</item>
+		<item>30 мин</item>
+		<item>1 час</item>
+		<item>3 час</item>
+		<item>6 час</item>
+		<item>12 час</item>
+	</string-array>
+</resources>

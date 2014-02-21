@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/rowlayout_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="101dp"
+    android:orientation="vertical" 
+    android:background="@drawable/map_none" >
+    
+    	<!-- 
+    android:background="@drawable/ctf1" -->
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    >
+	    <ImageView
+    	    android:src="@android:drawable/presence_offline"
+ 	        android:id="@+id/rowlayout_online"
+ 	        android:layout_width="20dp"
+ 	        android:layout_height="fill_parent"
+ 	        android:gravity="center|left"
+ 	        android:contentDescription="@string/Loading"
+ 	         />
+ 	    <TextView
+ 	        style="@style/text_style"
+ 	        android:id="@+id/rowlayout_name"
+ 	        android:layout_width="380dp"
+ 	        android:layout_height="fill_parent"
+ 	        android:gravity="top|left"
+    		android:shadowRadius="6"
+ 	        android:textSize="30sp"
+ 	         >
+    	</TextView>
+    	
+
+		<TextView
+		    style="@style/text_style"
+		    android:id="@+id/rowlayout_players"
+		    android:layout_width="match_parent"
+		    android:layout_height="fill_parent"
+		    android:gravity="right|top"
+		    android:shadowRadius="5"
+		    android:textSize="25sp" >
+
+    	</TextView>
+</LinearLayout>
+<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    >
+	 	<TextView
+	 	    style="@style/text_style"
+	 	    android:id="@+id/rowlayout_ip"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="fill_parent"
+	 	    android:gravity="bottom|left"
+	 	    android:textSize="20sp"
+		    android:shadowRadius="4"  ></TextView>
+	 	 	<TextView
+	 	 	style="@style/text_style"
+	 	    android:id="@+id/rowlayout_map"
+	 	    android:layout_width="match_parent"
+	 	    android:layout_height="fill_parent"
+	 	    android:gravity="bottom|right"
+	 	    android:textSize="25sp"
+		    android:shadowRadius="5"  >
+
+    	</TextView>
+    	</LinearLayout>
+    	<View
+ android:layout_width="fill_parent"
+ android:layout_height="1dp"
+ android:background="#000000" />
+</LinearLayout>
