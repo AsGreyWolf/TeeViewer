@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: C:\\Users\\iii\\Desktop\\java\\TeeViewernew\\src\\com\\asgreywolf\\teeviewer\\UpdateService.aidl
+ * Original file: C:\\Users\\iii\\Desktop\\java\\TeeViewer\\src\\com\\asgreywolf\\teeviewer\\UpdateService.aidl
  */
 package com.asgreywolf.teeviewer;
 public interface UpdateService extends android.os.IInterface
